@@ -4,7 +4,7 @@ import Data from "../Data/PortfolioData";
 
 const Project = () => {
   return (
-    <div className="lg:py-20 lg:px-24 py-10 px-4 bg-gray-100" id="project">
+    <div className="lg:py-20 lg:px-24 py-10 px-4 " id="project">
       <div className="project-detail">
         <div className="title mb-7">
           <h4 className="mb-2 text-2xl font-bold lg:text-left text-center">PORTFOLIO</h4>
@@ -35,7 +35,7 @@ const Project = () => {
                       target="_blank"
                       href={item.github}
                       rel="noreferrer"
-                      className="text-gray-800 text-md font-medium pr-5"
+                      className="text-gray-800 text-md font-medium pr-5 hover:text-blue-700" 
                     >
                       Code <i className="fa-brands fa-github text-xl"></i>
                     </a>
@@ -43,7 +43,7 @@ const Project = () => {
                       target="_blank"
                       href={item.vercel}
                       rel="noreferrer"
-                      className="text-gray-800 text-md font-medium pr-5"
+                      className="text-gray-800 text-md font-medium pr-5 hover:text-blue-700"
                     >
                       Live Demo
                       <i className="fa-solid fa-arrow-up-right-from-square link-icon ps-2 text-xl"></i>

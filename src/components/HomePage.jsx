@@ -19,13 +19,13 @@ const HomePage = () => {
             </p>
             <div className="icon text-3xl mb-5">
               <a href="https://github.com/ShlokShrestha" target="#">
-                <i class="fa-brands fa-github text-gray-800 mr-3"></i>
+                <i class="fa-brands fa-github text-gray-800 mr-3 hover:text-blue-700"></i>
               </a>
               <a
                 href="https://www.linkedin.com/in/shlok-shrestha-922554256/"
                 target="#"
               >
-                <i class="fa-brands fa-linkedin text-gray-800 mr-3"></i>
+                <i class="fa-brands fa-linkedin text-gray-800 mr-3 hover:text-blue-700"></i>
               </a>
             </div>
           </div>
