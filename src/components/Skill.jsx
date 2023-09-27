@@ -14,15 +14,7 @@ const About = () => {
             <h3 className="mb-3 text-xl font-bold text-blue-700">
               A dedicated Front-End Developer based in Kathmandu, Nepal
             </h3>
-            <p className="text-justify">
-              As a Junior Front-End Developer, I possess an impressive arsenal
-              of skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS.
-              With the expertise of a passionate, motivated and committed
-              software developer, empower your personal or professional goals. I
-              am dedicated to assisting people and organizations in realizing
-              their maximum potential. I have a wealth of expertise and a
-              successful track record in problem-solving.
-            </p>
+           
           </div>
         </div>
       </div>
