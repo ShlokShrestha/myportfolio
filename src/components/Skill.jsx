@@ -14,7 +14,6 @@ const About = () => {
             <h3 className="mb-3 text-xl font-bold text-blue-700">
               A dedicated Front-End Developer based in Kathmandu, Nepal
             </h3>
-           
           </div>
         </div>
       </div>
