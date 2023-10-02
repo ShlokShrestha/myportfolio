@@ -11,7 +11,7 @@ const About = () => {
           </div>
           <div className="lg:w-[35rem] md:w-[30rem] lg:ml-5 w-full px-4 mt-5 lg:text-left text-center">
             <h4 className="mb-2 text-2xl font-bold">ABOUT ME</h4>
-            <h3 className="mb-3 text-xl font-bold text-blue-700">
+            <h3 className="mb-3 text-xl font-bold text-blue-600">
               A dedicated Front-End Developer based in Kathmandu, Nepal
             </h3>
             <p className="text-justify">
