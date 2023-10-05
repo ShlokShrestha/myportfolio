@@ -9,11 +9,21 @@ const About = () => {
           A dedicated Front-End Developer based in Kathmandu, Nepal
         </h3> */}
       </div>
-
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
         <div className="bg-white py-5 px-5 shadow-md rounded-lg">
           <h2 className="text-center font-semibold text-3xl mt-3 mb-6 text-blue-600">
-            Frontend Developer
+            DESIGNING TOOLS
+          </h2>
+          <div className="text-center text-xl font-medium">
+            <p className="my-1">PhotoShop</p>
+            <p className="my-1">Illustrator</p>
+            <p className="my-1">Figma</p>
+            <p className="my-1">Premier Pro</p>
+          </div>
+        </div>
+        <div className="bg-white py-5 px-5 shadow-md rounded-lg">
+          <h2 className="text-center font-semibold text-3xl mt-3 mb-6 text-blue-600">
+            FRONTEND SKILLS
           </h2>
           <div className="text-center text-xl font-medium">
             <p className="my-1">HTML</p>
@@ -21,10 +31,19 @@ const About = () => {
             <p className="my-1">JavaScript</p>
             <p className="my-1">SASS</p>
             <p className="my-1">Tailwind CSS</p>
-            <p className="my-1">ReatJS</p>
+            <p className="my-1">REACTJS</p>
           </div>
         </div>
-       
+        <div className="bg-white py-5 px-5 shadow-md rounded-lg">
+          <h2 className="text-center font-semibold text-3xl mt-3 mb-6 text-blue-600">
+            BACKEND SKILLS
+          </h2>
+          <div className="text-center text-xl font-medium">
+            <p className="my-1">NodeJS</p>
+            <p className="my-1">Express</p>
+            <p className="my-1">MongoDB</p>
+          </div>
+        </div>
       </div>
     </div>
   );
