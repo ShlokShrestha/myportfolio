@@ -1,17 +1,14 @@
 import React from "react";
-
 import Data from "../Data/PortfolioData";
-
+import "../main.css";
 const Project = () => {
   return (
     <div className="lg:py-20 lg:px-24 py-10 px-4 " id="project">
-      <div className="project-detail">
-        <div className="title mb-7">
-          <h4 className="mb-2 text-2xl font-bold lg:text-left text-center">PORTFOLIO</h4>
-          <h3 className="lg:text-left text-center">
-            I deliver top-notch projects using modern technologies and maintain
-            a focus on efficient and clean code.
-          </h3>
+      <div className="project-detail ">
+        <div className="title mb-8">
+          <h4 className="text-2xl font-bold text-center relative pb-4">
+            PORTFOLIO
+          </h4>
         </div>
 
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-col-1 gap-6 mx-auto">
@@ -35,7 +32,7 @@ const Project = () => {
                       target="_blank"
                       href={item.github}
                       rel="noreferrer"
-                      className="text-gray-800 text-md font-medium pr-5 hover:text-blue-700" 
+                      className="text-gray-800 text-md font-medium pr-5 hover:text-blue-700"
                     >
                       Code <i className="fa-brands fa-github text-xl"></i>
                     </a>

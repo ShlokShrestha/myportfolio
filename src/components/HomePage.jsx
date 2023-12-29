@@ -1,5 +1,5 @@
 import React from "react";
-import me from "../assets/img/me.png"
+import me from "../assets/img/me.png";
 const HomePage = () => {
   return (
     <div
@@ -7,17 +7,14 @@ const HomePage = () => {
       id="homepage"
     >
       <div className="flex items-center justify-center lg:flex-row flex-col-reverse">
-        <div className="lg:w-[30rem] md:w-[30rem] sm:w-[25rem]  relative">
+        <div className="lg:w-[32rem] md:w-[30rem] sm:w-[25rem]  relative">
           <div className="mt-4 text-center lg:text-left">
-            <h1 className="lg:text-5xl md:text-5xl sm:text-4xl text-3xl lg:leading-tight lg:text-left font-bold text-gray-800 ">
-              Front-End React Developer
+            <p className=" text-xl my-1 ">HEY THERE !</p>
+            <h1 className="lg:text-5xl md:text-4xl sm:text-4xl text-2xl lg:leading-tight lg:text-left font-bold text-gray-800 ">
+             I am Shlok Shrestha
             </h1>
-
-            <p className="my-4 text-xl ">
-              Hi, I'm Shlok Shrestha. A passionate Front-end React Developer
-              based in Kathmandu, Nepal.
-            </p>
-            <div className="icon text-3xl mb-5">
+            <p className=" text-xl my-1 ">Passionate MERN Stack Developer</p>
+            <div className="icon text-3xl my-3">
               <a href="https://github.com/ShlokShrestha" target="#">
                 <i class="fa-brands fa-github text-gray-800 mr-3 hover:text-blue-700"></i>
               </a>
