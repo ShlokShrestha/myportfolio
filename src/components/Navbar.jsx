@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import "../assets/navbar.css";
 import { Link } from "react-scroll";
-
+import logo from "../assets/img/logo.png";
 const Navbar = () => {
   const [mobileIcon, setMobileIcon] = useState(false);
   const handleClick = () => setMobileIcon((icon) => !icon);
@@ -10,7 +10,15 @@ const Navbar = () => {
   return (
     <div className="header">
       <div className="logo">
-        Shlok <span>Shrestha</span>
+        <Link
+          to="homepage"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+        >
+          <img src={logo} alt="logo" width={30} className="cursor-pointer"/>
+        </Link>
       </div>
       <div className="navbar">
         <ul id="nav-links" className={mobileIcon ? "active" : "nav-links"}>
@@ -43,7 +51,7 @@ const Navbar = () => {
               to="skill"
               spy={true}
               smooth={true}
-              offset={-50}
+              offset={-80}
               duration={500}
               onClick={closedMenu}
             >
