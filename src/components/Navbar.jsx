@@ -5,8 +5,8 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [mobileIcon, setMobileIcon] = useState(false);
-  const handleClick = () => setMobileIcon(!mobileIcon);
-  const closedMenu = () => setMobileIcon (false);
+  const handleClick = () => setMobileIcon((icon) => !icon);
+  const closedMenu = () => setMobileIcon(false);
   return (
     <div className="header">
       <div className="logo">
@@ -14,7 +14,7 @@ const Navbar = () => {
       </div>
       <div className="navbar">
         <ul id="nav-links" className={mobileIcon ? "active" : "nav-links"}>
-          <li className="nav-link" >
+          <li className="nav-link">
             <Link
               to="homepage"
               spy={true}
@@ -26,7 +26,7 @@ const Navbar = () => {
               Home
             </Link>
           </li>
-          <li className="nav-link" >
+          <li className="nav-link">
             <Link
               to="about"
               spy={true}
@@ -38,7 +38,7 @@ const Navbar = () => {
               About
             </Link>
           </li>
-          <li className="nav-link" >
+          <li className="nav-link">
             <Link
               to="project"
               spy={true}
@@ -65,7 +65,7 @@ const Navbar = () => {
         </ul>
         <div className="nav-icon cursor-pointer" onClick={handleClick}>
           <i
-            className={mobileIcon ? "fa-solid fa-xmark" : "fa-solid fa-bars"} 
+            className={mobileIcon ? "fa-solid fa-xmark" : "fa-solid fa-bars"}
           ></i>
         </div>
       </div>
