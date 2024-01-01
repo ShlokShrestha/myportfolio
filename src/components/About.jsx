@@ -4,7 +4,11 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import Resume from "../assets/img/SHLOK SHRESTHA CV.pdf";
 const About = () => {
   return (
-    <div className="lg:py-20 lg:px-24 py-10 h-full px-4" id="about">
+    <div
+      className="lg:py-20 lg:px-24 py-10 h-full px-4 "
+      id="about"
+      data-aos="fade-up"
+    >
       <div className="max-w-[65rem] mx-auto title mb-8 text-gray-600">
         <h4 className="text-3xl font-bold text-center relative pb-4 uppercase">
           About Me
@@ -88,7 +92,11 @@ const About = () => {
             <div className="my-3">
               <button class="button">
                 {/* <span class="button-content">Download CV</span> */}
-                <a class="button-content" href={Resume} download="SHLOK SHRESTHA CV.pdf">
+                <a
+                  class="button-content"
+                  href={Resume}
+                  download="SHLOK SHRESTHA CV.pdf"
+                >
                   Download CV
                 </a>
               </button>

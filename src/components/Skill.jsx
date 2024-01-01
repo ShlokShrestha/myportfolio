@@ -7,7 +7,9 @@ const About = () => {
   return (
     <div
       className="lg:py-20 lg:px-24 py-10 h-full px-4 text-gray-600 "
+      
       id="skill"
+      data-aos="fade-up"
     >
       <div className="max-w-[65rem] mx-auto title mb-8 ">
         <h4 className="text-3xl font-bold text-center relative pb-4 uppercase">

@@ -3,17 +3,25 @@ import Data from "../Data/PortfolioData";
 import "../main.css";
 const Project = () => {
   return (
-    <div className="lg:py-20 lg:px-24 py-10 px-4 " id="project">
+    <div
+      className="lg:py-20 lg:px-24 py-10 px-4 "
+      id="project"
+      data-aos="fade-up"
+     
+    >
       <div className="project-detail ">
         <div className="title mb-8">
           <h4 className="text-2xl font-bold text-center relative pb-4">
             PORTFOLIO
           </h4>
+          <p className="text-center my-4">
+            Here are the lists of some projects I have worked on :
+          </p>
         </div>
 
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-col-1 gap-6 mx-auto">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-col-1 gap-6 mx-auto ">
           {Data.map((item) => (
-            <div className="shadow-lg rounded-lg p-4 bg-white " key={item.id}>
+            <div className="shadow-md hover:drop-shadow-xl rounded-lg p-4 bg-white " key={item.id} data-aos="zoom-in">
               <div className="project-show-details ">
                 <div className="left-side overflow-hidden">
                   <img
