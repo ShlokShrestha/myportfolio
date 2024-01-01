@@ -3,7 +3,7 @@ import me from "../assets/img/me.png";
 const HomePage = () => {
   return (
     <div
-      className=" h-full lg:px-40 lg:py-20 sm:p-10 p-6 bg-gray-100"
+      className=" h-full lg:px-40 lg:py-20 sm:p-10 p-6"
       id="homepage"
     >
       <div className="flex items-center justify-center lg:flex-row flex-col-reverse">

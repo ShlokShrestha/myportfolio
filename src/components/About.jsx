@@ -5,8 +5,8 @@ import Resume from "../assets/img/SHLOK SHRESTHA CV.pdf";
 const About = () => {
   return (
     <div className="lg:py-20 lg:px-24 py-10 h-full px-4" id="about">
-      <div className="max-w-[65rem] mx-auto title mb-8 ">
-        <h4 className="text-2xl font-bold text-center relative pb-4">
+      <div className="max-w-[65rem] mx-auto title mb-8 text-gray-600">
+        <h4 className="text-3xl font-bold text-center relative pb-4 uppercase">
           About Me
         </h4>
         <p className="text-center my-4">
@@ -27,7 +27,7 @@ const About = () => {
             <p className="md:text-3xl text-2xl font-semibold text-gray-500 mb-2 mt-3">
               Mern Stack Developer
             </p>
-            <p className="text-justify italic">
+            <p className="text-justify ">
               Aspiring computer science enthusiast with a passion for learning
               and problem-solving. Eager to contribute and grow in the tech
               industry.

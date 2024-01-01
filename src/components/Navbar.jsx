@@ -31,11 +31,23 @@ const Navbar = () => {
               to="about"
               spy={true}
               smooth={true}
-              offset={-80}
+              offset={-30}
               duration={500}
               onClick={closedMenu}
             >
               About
+            </Link>
+          </li>
+          <li className="nav-link">
+            <Link
+              to="skill"
+              spy={true}
+              smooth={true}
+              offset={-30}
+              duration={500}
+              onClick={closedMenu}
+            >
+              Skill
             </Link>
           </li>
           <li className="nav-link">
