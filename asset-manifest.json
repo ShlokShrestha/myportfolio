@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.49d54ca3.css",
-    "main.js": "/static/js/main.9685c77e.js",
+    "main.css": "/static/css/main.f162849a.css",
+    "main.js": "/static/js/main.9d554cb6.js",
     "static/media/me.png": "/static/media/me.3defe3712c6b826651e4.png",
     "static/media/Sajilo_Store.JPG": "/static/media/Sajilo_Store.23e3c7471b4aba36381c.JPG",
     "static/media/easyaid.png": "/static/media/easyaid.74c1850e1c71e49b4afc.png",
@@ -11,11 +11,11 @@
     "static/media/echodigital.png": "/static/media/echodigital.f2d0233b0550325112f0.png",
     "static/media/logo.png": "/static/media/logo.847b9326a7da0abc665a.png",
     "index.html": "/index.html",
-    "main.49d54ca3.css.map": "/static/css/main.49d54ca3.css.map",
-    "main.9685c77e.js.map": "/static/js/main.9685c77e.js.map"
+    "main.f162849a.css.map": "/static/css/main.f162849a.css.map",
+    "main.9d554cb6.js.map": "/static/js/main.9d554cb6.js.map"
   },
   "entrypoints": [
-    "static/css/main.49d54ca3.css",
-    "static/js/main.9685c77e.js"
+    "static/css/main.f162849a.css",
+    "static/js/main.9d554cb6.js"
   ]
 }
