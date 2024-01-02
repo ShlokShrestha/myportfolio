@@ -43,6 +43,7 @@
   height: 3px;
   background: #0134ff;
   bottom: 0;
+  border-radius: 10px;
   left: calc(50% - 20px);
 }
 
@@ -79,4 +80,28 @@
   border-radius: inherit;
   background-color: #014dff;
   transition: all 0.475s;
+}
+
+.resume-item {
+  padding: 0 0 5px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #014dff;
+  position: relative;
+}
+
+.resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #014dff;
+}
+
+.resume-item > ul > li {
+  list-style-type: disc;
+  margin: 10px 0;
 }

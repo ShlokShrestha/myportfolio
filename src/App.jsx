@@ -4,14 +4,16 @@ import HomePage from "./components/HomePage";
 import About from "./components/About";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
-import Skill from "./components/Skill"
+import Skill from "./components/Skill";
+import Resume from "./components/Resume";
 const App = () => {
   return (
     <>
       <Navbar />
       <HomePage />
       <About />
-      <Skill/>
+      <Resume />
+      <Skill />
       <Project />
       <Contact />
     </>

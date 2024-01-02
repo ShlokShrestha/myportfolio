@@ -17,7 +17,7 @@ const Navbar = () => {
           offset={-100}
           duration={500}
         >
-          <img src={logo} alt="logo" width={30} className="cursor-pointer"/>
+          <img src={logo} alt="logo" width={30} className="cursor-pointer" />
         </Link>
       </div>
       <div className="navbar">
@@ -39,8 +39,8 @@ const Navbar = () => {
               to="about"
               spy={true}
               smooth={true}
-              offset={-80}
-              duration={500}
+              offset={-100}
+              duration={1000}
               onClick={closedMenu}
             >
               About
@@ -48,11 +48,23 @@ const Navbar = () => {
           </li>
           <li className="nav-link">
             <Link
+              to="resume"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={1000}
+              onClick={closedMenu}
+            >
+              Resume
+            </Link>
+          </li>
+          <li className="nav-link">
+            <Link
               to="skill"
               spy={true}
               smooth={true}
-              offset={-80}
-              duration={500}
+              offset={-100}
+              duration={1000}
               onClick={closedMenu}
             >
               Skill
@@ -63,8 +75,8 @@ const Navbar = () => {
               to="project"
               spy={true}
               smooth={true}
-              offset={-90}
-              duration={500}
+              offset={-100}
+              duration={1000}
               onClick={closedMenu}
             >
               Project
@@ -75,8 +87,8 @@ const Navbar = () => {
               to="contact"
               spy={true}
               smooth={true}
-              offset={-90}
-              duration={500}
+              offset={-100}
+              duration={1000}
               onClick={closedMenu}
             >
               Contact

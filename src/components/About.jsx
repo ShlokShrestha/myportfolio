@@ -28,7 +28,7 @@ const About = () => {
             <img src={aboutme} alt="abc" className="object-cover  " />
           </div>
           <div className="lg:w-[40rem] md:w-[40rem] lg:ml-5 w-full px-4 lg:text-left text-center">
-            <p className="md:text-3xl text-2xl font-semibold text-gray-500 mb-2 mt-3">
+            <p className="md:text-3xl text-2xl font-semibold text-blue-600 mb-2 mt-3">
               Mern Stack Developer
             </p>
             <p className="text-justify ">
@@ -81,17 +81,17 @@ const About = () => {
               </ul>
             </div>
             <div>
-              <p className="text-3xl font-semibold text-gray-500 mb-2 sm:mt-2">
+              <p className="text-3xl font-semibold text-blue-600 mb-2 sm:mt-2">
                 Skill
               </p>
               <p className="text-justify ">
-                HTML, CSS, JavaScript, Bootstrap, ReactJS, Redux, Redux Toolkit,
-                Tailwind CSS, SCSS, Node.js, Express, MongoDB.
+                HTML, CSS, JavaScript, SCSS, Bootstrap, Material UI, TailwindCSS
+                ReactJS, Redux, Redux Toolkit, Next JS, React Query, Node.js,
+                Express, MongoDB.
               </p>
             </div>
             <div className="my-3">
               <button class="button">
-                {/* <span class="button-content">Download CV</span> */}
                 <a
                   class="button-content"
                   href={Resume}

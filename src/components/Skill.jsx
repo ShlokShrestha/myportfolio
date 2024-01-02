@@ -7,7 +7,6 @@ const About = () => {
   return (
     <div
       className="lg:py-20 lg:px-24 py-10 h-full px-4 text-gray-600 "
-      
       id="skill"
       data-aos="fade-up"
     >
@@ -15,10 +14,13 @@ const About = () => {
         <h4 className="text-3xl font-bold text-center relative pb-4 uppercase">
           My Skills
         </h4>
-        <p className="text-center my-4">List of skills I posses</p>
+        <p className="text-center my-4">List of skills I posses :</p>
       </div>
       <div className="max-w-[65rem] grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mx-auto  ">
-        <div className="bg-white py-5 px-5 shadow-md hover:drop-shadow-xl rounded-lg h-[20rem]">
+        <div
+          data-aos="zoom-in"
+          className=" bg-white py-5 px-5 shadow-md hover:drop-shadow-xl rounded-lg h-[20rem] "
+        >
           <div className="flex justify-center items-center mt-16 ">
             <FaHtml5 size={50} className="text-orange-600" />
             <FaCss3Alt size={50} className="text-blue-600" />
@@ -31,7 +33,10 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="bg-white py-5 px-5 shadow-md hover:drop-shadow-xl rounded-lg h-[20rem]">
+        <div
+          data-aos="zoom-in"
+          className=" bg-white py-5 px-5 shadow-md hover:drop-shadow-xl rounded-lg h-[20rem]"
+        >
           <div className="flex justify-center items-center mt-16 ">
             <IoLogoJavascript size={50} className="text-yellow-500" />
           </div>
@@ -44,7 +49,10 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="bg-white py-5 px-5 shadow-md hover:drop-shadow-xl rounded-lg h-[20rem]">
+        <div
+          data-aos="zoom-in"
+          className=" bg-white py-5 px-5 shadow-md hover:drop-shadow-xl rounded-lg h-[20rem] "
+        >
           <div className="flex justify-center items-center mt-16 ">
             <FaReact size={50} className="text-lg text-rose-700" />
           </div>
@@ -56,7 +64,10 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="bg-white py-5 px-5 shadow-md hover:drop-shadow-xl rounded-lg h-[20rem]">
+        <div
+          data-aos="zoom-in"
+          className=" bg-white py-5 px-5 shadow-md hover:drop-shadow-xl rounded-lg h-[20rem]"
+        >
           <div className="flex justify-center items-center mt-16 ">
             <FaNodeJs size={50} className="text-green-600" />
           </div>
@@ -68,7 +79,10 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="bg-white py-5 px-5 shadow-md hover:drop-shadow-xl rounded-lg h-[20rem]">
+        <div
+          data-aos="zoom-in"
+          className="  bg-white py-5 px-5 shadow-md hover:drop-shadow-xl rounded-lg h-[20rem]"
+        >
           <div className="flex justify-center items-center mt-16 ">
             <SiMongodb size={50} className="text-green-600" />
           </div>
@@ -80,7 +94,10 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="bg-white py-5 px-5 shadow-md hover:drop-shadow-xl rounded-lg h-[20rem]">
+        <div
+          data-aos="zoom-in"
+          className=" bg-white py-5 px-5 shadow-md hover:drop-shadow-xl rounded-lg h-[20rem]"
+        >
           <div className="flex justify-center items-center mt-16 ">
             <TbBrandNextjs size={50} />
           </div>

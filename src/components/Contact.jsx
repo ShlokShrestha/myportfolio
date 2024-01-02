@@ -37,8 +37,8 @@ const Contact = () => {
             <i class="fa-solid fa-phone  text-blue-600 text-2xl"></i>
           </span>
           <div class="contact-info">
-            <h3>Mail</h3>
-            <a href="mailto:shlokstha99@gmail.com">shlokstha99@gmail.com</a>
+            <h3>Phone</h3>
+            <a href="mailto:shlokstha99@gmail.com">+977-9862230119</a>
           </div>
         </div>
       </div>
